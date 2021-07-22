@@ -1,17 +1,18 @@
 
-const Engine = Matter.Engine;
-const World = Matter.World;
-const Bodies = Matter.Bodies;
-const Body = Matter.Body;
 
 
+//Create namespace for Engine
+//Create namespace for World
+//Create namespace for Bodies
+//Create namespace for Body
 
 
 function setup() {
   createCanvas(400,400);
+//create the engine
+  //Add world to the engine
+  
 
-  engine = Engine.create();
-  world = engine.world;
   
    var ball_options = {
     restitution: 0.95,
